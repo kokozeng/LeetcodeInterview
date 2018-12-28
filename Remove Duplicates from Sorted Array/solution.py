@@ -1,4 +1,4 @@
-def removeDuplicates(nums):
+def removeDuplicates(self,nums):
         """
         :type nums: List[int]
         :rtype: int
@@ -13,7 +13,3 @@ def removeDuplicates(nums):
                 newTail += 1
                 nums[newTail] = nums[i]
         return newTail + 1
-
-nums = [1,1,1,2]
-removeDuplicates(nums)
-print (nums)
